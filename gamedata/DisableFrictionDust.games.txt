@@ -1,0 +1,32 @@
+"Games"
+{
+	"csgo"
+	{
+		"Signatures"
+		{
+			"PhysFrictionEffect"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x14\x53\x56\x57\x8B\xF2"
+				"linux"		"\x55\x89\xE5\x56\x53\x8D\x45\xEC\x83\xEC\x50\x89\x44\x24\x04"
+			}
+		}
+		"Functions"
+		{
+			"PhysFrictionEffect"
+			{
+				"signature"	"PhysFrictionEffect"
+				"return"	"void"
+				"this"		"ignore"
+				"windows"
+				{
+					"callconv"	"fastcall"
+				}
+				"linux"
+				{
+					"callconv"	"cdecl"
+				}
+			}
+		}
+	}
+}
